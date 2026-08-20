@@ -3,12 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>salom hammaga bowladik</h1>
+      <div class="site-container">
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <span class="logo-icon"></span>
+        <span>Sama</span>
+      </div>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">How It Works</a>
+        <a href="#">Why Sama?</a>
+        <a href="#">About Us</a>
+        <a href="#">Coach</a>
+        <a href="#" class="btn-demo">Book a Demo</a>
+      </nav>
+    </header>
 
-    <img src="https://i.pinimg.com/736x/04/eb/3b/04eb3b32d32aa50f05fc140e6fb04524.jpg" alt="">
-    <h1>teshavoyni reposi</h1>
+    <!-- Hero Section -->
+    <main class="hero">
+      <div class="hero-left">
+        <h1>Supercharge<br>your team's<br>development</h1>
+        <p>We're elevating engagement to make the world a better place by bringing the power of executive coaching to everyone.</p>
+
+        <form class="email-form" onsubmit="event.preventDefault();">
+          <input type="email" placeholder="Your work email" required>
+          <button type="submit">Learn more</button>
+        </form>
+
+        <div class="features">
+          <div class="feature-item">1/1 coaching</div>
+          <div class="feature-item">Empowering</div>
+          <div class="feature-item">Inclusive</div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1000&auto=format&fit=crop" alt="Woman holding smartphone">
+      </div>
+    </main>
+  </div>
 </body>
 </html>
